@@ -54,8 +54,8 @@ public class NNGenetics {
                 lastLine = line;
             }
             generation = Integer.parseInt(lastLine.split(":")[0]);
-        } catch (IOException e) {
-            e.printStackTrace();
+        } catch (IOException | NullPointerException e) {
+            generation = 1;
         }
     }
 
