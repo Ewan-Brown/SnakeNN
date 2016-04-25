@@ -2,17 +2,17 @@
 This program is a Snake game that contains a Snake Neural Network trainer using a genetic algorithm. You can either play Snake normally
 or you can let the Neural Network trainer take place and keep improving its population.
 
-To train the neural network population, you need to switch the player type to "NN Training" and start the game, it is also
-recommended that you change the speed to "Fast" or "NN Training" because with "Normal" it will take a lot of time. In the beginning
-you'll notice the networks are pretty dumb but after a few generations they'll begin to collect more and more food, up to a maximum
-of about 60 or 70 from my experience because we only supply the network with limited information. It doesn't really matter if you
-enable or disable walls during NN Training because there is a monitor running in case a network gets stuck in an infinite loop, but I recommend to turn walls on. The "Loaded NN" player by default is just a randomly generated neural network but you can load different ones using the Load Network input on the left, to load a network copy it from either population.txt or best.txt (only whats after the colon without the space for best.txt or a whole line for population.txt) and paste it in the input field and press load, now that network is the Loaded NN and when "Loaded NN" is selected that network will make the moves.
-
 I made this project because I wanted to learn both JavaFX and how to use Neural Networks, and this project gave me a better understanding
 of both these things. Thanks [lestard](https://github.com/lestard) for helping me with the JavaFX part and for design inspiration! Here's lestard's [SnakeFX](https://github.com/lestard/SnakeFX)
 which I took inspiration from :)
 
 ![](https://github.com/NanoVash/SnakeNN/blob/master/screenshot.png)
+#How to train the networks
+To train the neural network population, you need to switch the player type to "NN Training" and start the game, it is also
+recommended that you change the speed to "Fast" or "NN Training" because with "Normal" it will take a lot of time. In the beginning
+you'll notice the networks are pretty dumb but after a few generations they'll begin to collect more and more food, up to a maximum
+of about 60 or 70 from my experience because we only supply the network with limited information. It doesn't really matter if you
+enable or disable walls during NN Training because there is a monitor running in case a network gets stuck in an infinite loop, but I recommend to turn walls on. The "Loaded NN" player by default is just a randomly generated neural network but you can load different ones using the Load Network input on the left, to load a network copy it from either population.txt or best.txt (only whats after the colon without the space for best.txt or a whole line for population.txt) and paste it in the input field and press load, now that network is the Loaded NN and when "Loaded NN" is selected that network will make the moves.
 # Neural Network structure
 The Neural Networks contains 3 layers, the input layer (4 input neurons), a hidden layer (3 neurons) and an output layer(1 neuron).
 The inputs of the network are:
