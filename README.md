@@ -14,6 +14,8 @@ The inputs of the network are:
 * The object infront of the Snake
 * The object on the Snake's right
 
+Here's a visual example of how the network works: ![](https://github.com/NanoVash/SnakeNN/blob/master/nn.png)
+
 The output of the network is its evaluation for how good that move is, so this process is repeated 3 times, 1 time for each possible 
 direction that the Snake can move to (note that the snake can't move backwards) and then the best direction is chosen.
 For example: if the Snake is facing up, we will input the information as if it is looking to the left, and will move to the left 
