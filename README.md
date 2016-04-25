@@ -3,7 +3,8 @@ This program is a Snake game that contains a Snake Neural Network trainer using 
 or you can let the Neural Network trainer take place and keep improving its population.
 
 I made this project because I wanted to learn both JavaFX and how to use Neural Networks, and this project gave me a better understanding
-of both these things. Thanks [lestard](https://github.com/lestard) for helping me with the JavaFX part and for design inspiration!
+of both these things. Thanks [lestard](https://github.com/lestard) for helping me with the JavaFX part and for design inspiration! Here's lestard's [SnakeFX](https://github.com/lestard/SnakeFX)
+which I took inspiration from :)
 
 ![](https://github.com/NanoVash/SnakeNN/blob/master/screenshot.png)
 # Neural Network structure
