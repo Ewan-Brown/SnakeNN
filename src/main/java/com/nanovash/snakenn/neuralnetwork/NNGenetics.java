@@ -25,7 +25,7 @@ public class NNGenetics {
             if(!appdata.exists())
                 appdata.mkdirs();
             storePopulation = new File(appdata, "population.txt");
-            if(!storePopulation.exists()) {
+            if(!storePopulation.exists() || new BufferedReader(new FileReader(storePopulation)).readLine() == null) {
                 storePopulation.createNewFile();
                 for (int i = 0; i < populationSize; i++) {
                     List<Double> network = new NeuralNetwork().toList();
