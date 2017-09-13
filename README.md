@@ -30,14 +30,14 @@ For example: if the Snake is facing up, we will input the information as if it i
 (food distance deferential), then we will input as if it is looking up and will move up, and then we will input as if it is looking to
 the right and will move to the right. After that we will compare all evaluations and choose the direction with the best evaluation for
 the next move.
-#Genetic algorithm
+# Genetic algorithm
 The genetic algorithm I use here is quite simple, every generation update I split the population to best 50% and worst 50% and I replace
 the worst 50% with children of the best 50%. This ensures that the best genetic information wont be lost but progress will be made.
 The crossover method is a normal 2 cutpoint crossover and every child has a 10% chance to mutate.
-#IO
+# IO
 The game stores its population and each generation's best networks in %APPDATA%/.SnakeNN
-#Dependencies
+# Dependencies
 The only dependency in this project is [lombok](https://projectlombok.org/), its a great dependency for projects in general and I
 advise anyone to check it out!
-#Download
+# Download
 You can check the "releases" section of this repository for a downloadable jar file.
