@@ -7,7 +7,8 @@ of both these things. Thanks [lestard](https://github.com/lestard) for helping m
 which I took inspiration from :)
 
 ![](https://github.com/NanoVash/SnakeNN/blob/master/screenshot.png)
-#How to train the networks
+
+# How to train the networks
 To train the neural network population, you need to switch the player type to "NN Training" and start the game, it is also
 recommended that you change the speed to "Fast" or "NN Training" because with "Normal" it will take a lot of time. In the beginning
 you'll notice the networks are pretty dumb but after a few generations they'll begin to collect more and more food, up to a maximum
